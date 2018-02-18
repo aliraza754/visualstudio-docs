@@ -94,7 +94,7 @@ Step 3. Go back to **Solution Explorer** and find the Command.cs file. Change th
   private void MenuItemCallback(object sender, EventArgs e)
   {
     string message = "Hello World!";
-    string title = "Command1";
+    string title = "Command";
 
     // Show a message box to prove we were here
     VsShellUtilities.ShowMessageBox(
